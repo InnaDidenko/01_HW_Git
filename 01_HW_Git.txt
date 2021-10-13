@@ -1,0 +1,147 @@
+﻿      Group 23
+      01 HW Git
+      Innesa Didenko
+      Ссылка на GitHub: https://github.com/InnaDidenko/01_HW_Git
+
+ 1. Для выполнения задания у меня:
+   -установлен для Windows - GitBash;
+   -создан аккаунт в GitHub;
+   -создан репозиторий в GitHub.
+ 2. Созданный репозиторий склонирован на локальный компьютер в отдельную папку.
+ 3. Все шаги сценария выполняются в терминале GitBush, Terminal, в папке под гитом.
+
+ 4. Создать файл “new.json” - 
+    touch new.json
+
+ 5. Добавить файл под гит - 
+    git add new.json
+
+ 6. Закоммитить файл - 
+    git commit -m "new.json"
+
+ 7. Отправить файл на внешний GitHub репозиторий - 
+    git push
+
+ 8. Создать файлы new2.json, new2.xml, new2.txt - 
+    touch new2.json new2.xml new2.txt
+
+ 9. Добавить файлы под гит - 
+    git add new2.json new2.xml new2.txt
+
+ 10. Закоммитить файлы - 
+    git commit -m "new2.json new2.txt new2.xml"
+
+ 11. Отправить файлы на внешний GitHub репозиторий - 
+    git push
+
+ 12. Отредактировать содержание файла “new2.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата):
+    vim new2.txt
+    i Enter
+    ФИО - Диденко Инна Александровна
+    Возраст - 31 год
+    Домашние животные - нет
+    Будущая желаемая зарплата - от 500$
+    Esc :wq
+
+ 13. Отредактировать содержание файла “new2.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON:
+    vim new2.json
+    i Enter
+    {
+	"first_name": "Inna",
+	"last_name": "Didenko",
+	"patronymic": "Aleksandrovna",
+	"age": 31,
+	"home_animals": "no",
+	"desired_salary": "500$ and higher" 
+    }
+    Esc :wq
+
+ 14. Добавить и закоммитить “new2.txt” одной строчкой - 
+    git commit -ma "new2.txt"
+
+ 15. Добавить и закоммитить “new2.json” одной строчкой - 
+    git add new2.json && git commit -m "new2.json"
+
+ 16. Отправить изменения на внешний репозиторий - 
+    git push
+
+ 17. Отредактировать содержание файла “new2.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML:
+    vim new2.xml
+    i Enter
+    <?xml version="1.0" encoding="UTF-8"?>
+    <INFORMATION>
+       <FIRST_NAME>Inna</FIRST_NAME>
+       <LAST_NAME>Didenko</LAST_NAME>
+       <PATRONYMIC>Aleksandrovna</PATRONYMIC>
+       <AGE>31</AGE>
+       <HOME_ANIMALS>no</HOME_ANIMALS>
+       <DECIRED_SALARY>500$</DECIRED_SALARY>
+     </INFORMATION>
+    Esc :wq 
+
+ 18. Добавить и закоммитить “new2.xml” одной строчкой - 
+    git commit -ma "new2.xml"
+
+ 19. Отправить изменения на внешний репозиторий - 
+    git push
+
+ 20. Отправить предыдущее домашнее задание по GitBush Terminal на внешний репозиторий: 
+    Ссылка: https://github.com/InnaDidenko/HW_Linux_terminal
+
+ 21. В веб интерфейсе GitHub создать файл new3.txt - 
+    "Add file"
+    "Create new file"
+    "Commit new file"
+
+ 22. Отредактировать в веб интерфейсе содержание файла “new3.txt” - написать информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить):
+    Любимые фильмы - "Побег из Шоушенка", "В погоне за счастьем"
+    Любимые сериалы - "Шерлок", "Сверхестественное", "Форс-мажоры"
+    Любимая еда - Мясо и рыба на гриле
+    Любимое время года - Все имеют свои преимущества
+    Сторона которую хотели бы посетить - Хорватия
+    "Commit changes"
+
+ 23. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+    Ссылка: https://github.com/InnaDidenko/01_HW_Git/blob/main/new3.txt
+
+ 24. Синхронизировать внешний и локальный репозитории (слить изменения с внешнего репозитория) - 
+    git fetch
+    git pull
+
+ 25. Отредактировать в веб интерфейсе содержание файла “new2.json” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате JSON.
+    {
+	"favorite_movie": "Pearl_Harbor",
+	"favorite_series": "Supernatural",
+	"favorite_food": "grilled_meat",
+	"favorite_season": "all",
+	"country_you_want_to_visit": "Croatia" 
+    }
+    "Commit changes"
+
+ 26. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+    Ссылка: https://github.com/InnaDidenko/01_HW_Git/commit/b7e8cb84e9039c4a6db42dda669ef9b416024af2
+
+ 27. Синхронизировать внешний и локальный репозитории - 
+    git fetch
+    git pull
+
+ 28. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате XML.
+    <?xml version="1.0" encoding="UTF-8"?>
+    <INFORMATION>
+       <favorite_movie>Pearl_Harbor</favorite_movie>
+       <favorite_series>Supernatural</favorite_series>
+       <favorite_food>grilled_meat</favorite_food>
+       <favorite_season>all</favorite_season>
+       <country_you_want_to_visit>Croatia</country_you_want_to_visit>
+     </INFORMATION>
+    "Commit changes"
+   
+ 29. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+    Ссылка: https://github.com/InnaDidenko/01_HW_Git/commit/af36ec38e9f94347205053191101ede8eb7c5b91
+
+ 30. Синхронизировать внешний и локальный репозитории
+    git fetch
+    git pull
+
+
+
